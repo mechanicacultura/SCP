@@ -27,13 +27,14 @@
 
 
 #title {
-	color: RGB(138, 22, 22);
+	color: RGB(204, 16, 16);
 	font-family: 'special_eliteregular';
-	top: 2vh;
-	text-align: center;
+	top: 3vh;
 	font-size: 800%;
 	transform: rotate(1deg);
 	margin-block-end: 0;
+	margin-left: 25vw;
+    box-shadow: -5px -5px 9vw rgb(148, 10, 10);
 }
 
 
@@ -44,6 +45,23 @@ body {
 	height: auto;
 	padding: 0;
 	margin: 0;
+}
+
+#intronote {
+	position:absolute;
+	width:35vw;
+	top:-30vh;
+	left:-7vw;
+	transform:rotate(15deg)
+}
+
+#introtext {
+	position:absolute;
+	font-family: 'Mansalva', cursive;
+	font-size: 200%;
+	transform:rotate(14deg);
+	top: -8vh;
+	left: 4vw;
 }
 
 
@@ -164,6 +182,26 @@ body {
 }
 
 
+
+
+#stickynote {
+	position: absolute;
+	width: 40%;
+	top:37%;
+	left:-2vw;
+	transform: rotate(3deg);
+}
+
+#stickytext {
+	position: absolute;
+	font-family: 'Mansalva', cursive;
+	font-size: 200%;
+	color:red;
+	top:40%;
+	left:10vw;
+	transform: rotate(5deg);
+	
+}
 
 
 
