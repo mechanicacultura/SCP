@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'special_eliteregular';
+    src: url('SpecialElite-webfont.eot');
+    src: url('SpecialElite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SpecialElite-webfont.woff2') format('woff2'),
+         url('SpecialElite-webfont.woff') format('woff'),
+         url('SpecialElite-webfont.ttf') format('truetype'),
+         url('SpecialElite-webfont.svg#special_eliteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.switchContainer:hover .switchOut { opacity: 0; transition: opacity 0.5s 0s }
+.switchContainer:hover .switchIn  { opacity: 1; transition: opacity 0.5s 0.45s }
+  
+.switchOut { opacity: 1; transition: opacity 0.5s 0.45s }
+.switchIn  { opacity: 0; transition: opacity 0.5s 0s }
+  
+.switchOut, .switchIn { 
+    position:absolute;
+    white-space: nowrap;
+    display: inline-block;
+    width:auto;
+}
+
+
+
+
+#title {
+	color: RGB(138, 22, 22);
+	font-family: 'special_eliteregular';
+	top: 2vh;
+	text-align: center;
+	font-size: 800%;
+	transform: rotate(1deg);
+	margin-block-end: 0;
+}
+
+
+body {
+	position: relative;
+	background-color: black;
+	width: 99%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+
+#folder {
+	position: static;
+	left: 0px;
+	width: 98vw;
+	height: 800vh;
+	padding-top: 4vh;
+}
+
+.REDACTED {
+	position: absolute;
+	font-family: 'special_eliteregular';
+	font-size: 110%;
+}
+
+.REDACTED span {
+	whitespace: nowrap;
+	display: inline-block;
+	background: black;
+    box-shadow: 1px 1px 4px rgba(0,0,0,255);
+	transform: skewX(-3deg);
+}
+
+.markup {
+	font-family: 'Rock Salt', cursive;
+	color:red;
+	font-size:120%;
+}
+
+
+
+
+#item1 {
+	width:inherit;
+	top:4%;
+	left:2%;
+	transform:rotate(2deg);
+}
+
+#item1 p {
+	position:absolute;
+	left:50%;
+	top:5vw;
+	width: 39vw;
+}
+
+#watch, #scissors {
+	width: 33%;
+	transform: rotate(87deg);
+	position: absolute;
+	top: 1vw;
+	left: 9vw;
+	
+	padding: 20px;
+	box-shadow: inset 0 0 0 20px white;
+}
+
+
+
+
+#item2 {
+	width:inherit;
+	top:15%;
+	left:0;
+	transform:rotate(-1deg);
+
+}
+
+#item2 p {
+	position:absolute;
+	left:7%;
+	top:5vw;
+	width: 39vw;
+}
+
+#die, #magnet {
+	width: 33%;
+	position: absolute;
+	top: 1.5vw;
+	left: 52vw;
+	transform: rotate(92deg);
+	
+	padding: 20px;
+	box-shadow: inset 0 0 0 20px white;
+}
+
+
+
+
+
+
+#item3 {
+	width:inherit;
+	top:26%;
+	left:0;
+	transform:rotate(-1deg);
+	
+}
+
+#item3 p {
+	position:absolute;
+	left:51%;
+	top:5vw;
+	width: 39vw;
+}
+
+#jar {
+	width: 33%;
+	transform: rotate(89deg);
+	position: absolute;
+	top: 1vw;
+	left: 9vw;
+	
+	padding: 20px;
+	box-shadow: inset 0 0 0 20px white;
+}
+
+
+
+
+
+#item4 {
+	width:inherit;
+	top:38%;
+	left:0;
+}
+
+#item4 p {
+	position:absolute;
+	left:45%;
+	top:5vw;
+	transform: rotate(-0.5deg);
+	width: 39vw;
+}
+
+#pencil, #battery{
+	width: 33%;
+	transform: rotate(92deg);
+	position: absolute;
+	top: 18vw;
+	left: 4vw;
+	
+	padding: 20px;
+	box-shadow: inset 0 0 0 20px white;
+}
+
+
+
+
+
+
+
+
+#item5 {
+	width:inherit;
+	top:50%;
+	left:0;
+}
+
+#item5 p {
+	position:absolute;
+	left:7%;
+	top:5vw;
+	width: 39vw;
+}
+
+
+#item6 {
+	width:inherit;
+	top:61%;
+	left:0;
+	transform: rotate(0.5deg);
+}
+
+#item6 p {
+	position:absolute;
+	left:45%;
+	top:5vw;
+	width: 39vw;
+}
+
+
+
+
+#item7 {
+	width:inherit;
+	top:72.5%;
+	left:0;
+	transform: rotate(-1deg);
+}
+
+#item7 p {
+	position:absolute;
+	left:51%;
+	top:5vw;
+	width: 38vw;
+}
+
+
+
+
+
+#item8 {
+	width:inherit;
+	top:85%;
+	left:0;
+	transform:rotate(-1deg);
+}
+
+#item8 p {
+	position:absolute;
+	left:7%;
+	top:5vw;
+	width: 39vw;
+}
+
+
+#lapis {
+	width: 33%;
+	position: absolute;
+	top: 1.5vw;
+	left: 52vw;
+	transform: rotate(88deg);
+	
+	padding: 20px;
+	box-shadow: inset 0 0 0 20px white;
+}
+
+
+#notetxt1 {
+	position: absolute;
+	font-family: 'special_eliteregular';
+	font-size: 119%;
+	bottom: 17vh;
+	left: 59vw;
+	transform: rotate(11deg);
+}
+
+#notetxt2 {
+	position: absolute;
+	font-family: 'Mansalva', cursive;
+	font-size: 300%;
+	bottom: 19vh;
+	left: 63vw;
+	transform: rotate(13deg);
+}
+
+#noteimg {
+	position: absolute;
+	right: -19px;
+	bottom: 0px;
+	width: 50vw;
+}
+
+
+
+
+
+
+
+
+
